@@ -1,0 +1,12 @@
+{
+  "name": "jquery.whenall",
+  "version": "1.0.0",
+  "main": "jquery.whenall.js",
+  "description": "$.whenAll is an extension to jQuery's $.when. The main difference is $.when stops when it receives the first rejected promise. This extension treats all successes and failures as progress events. After all the promises have completed, the global promise is resolved if there were no errors. Otherwise the global promise is rejected.",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "LICENSE"
+    }
+  ]
+}
